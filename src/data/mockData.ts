@@ -1,0 +1,58 @@
+import { WiFiProfile } from '../types/wifi';
+
+export const mockWiFiProfiles: WiFiProfile[] = [
+  {
+    id: '1',
+    name: 'HomeNetwork_5G',
+    password: 'MySecurePassword123!',
+    security: 'WPA2-Personal',
+    signal: 95,
+    lastConnected: new Date('2025-01-15T10:30:00'),
+    isConnected: true,
+  },
+  {
+    id: '2',
+    name: 'OfficeWiFi',
+    password: 'CompanyWiFi2025',
+    security: 'WPA3-Enterprise',
+    signal: 78,
+    lastConnected: new Date('2025-01-14T16:45:00'),
+    isConnected: false,
+  },
+  {
+    id: '3',
+    name: 'GuestNetwork',
+    password: null,
+    security: 'Open',
+    signal: 65,
+    lastConnected: new Date('2025-01-10T12:15:00'),
+    isConnected: false,
+  },
+  {
+    id: '4',
+    name: 'Neighbor_WiFi',
+    password: 'password123',
+    security: 'WPA2-Personal',
+    signal: 45,
+    lastConnected: new Date('2025-01-08T09:20:00'),
+    isConnected: false,
+  },
+  {
+    id: '5',
+    name: 'CoffeeShop_Free',
+    password: 'CoffeeLovers2025',
+    security: 'WPA2-Personal',
+    signal: 32,
+    lastConnected: new Date('2025-01-05T14:30:00'),
+    isConnected: false,
+  },
+  {
+    id: '6',
+    name: 'Hotel_Premium',
+    password: 'HotelGuest789',
+    security: 'WPA2-Personal',
+    signal: 88,
+    lastConnected: new Date('2024-12-28T20:15:00'),
+    isConnected: false,
+  },
+];
